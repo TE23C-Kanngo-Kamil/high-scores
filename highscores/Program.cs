@@ -6,7 +6,7 @@ static void Main()
     List<string> highScores = new List<string>();
 
     // Loopar tre gånger
-    for (int i = 0; i < 3; i++) ;
+    for (int i = 0; i < 5; i++)
     {
         Console.WriteLine("Skriv in namn: ");
         string name = Console.ReadLine();
@@ -29,5 +29,5 @@ static void Main()
     {
         Console.WriteLine(score);
     }
-    
+    Console.ReadLine();
 }
